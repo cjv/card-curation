@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #1e293b;
+
+  /* Placeholder Color Palette */
+  --corn-yellow: #94a3b8;
+  --corn-light: #e2e8f0;
+  --corn-dark: #64748b;
+
+  --bean-burgundy: #475569;
+  --bean-light: #64748b;
+  --bean-dark: #334155;
+
+  --squash-orange: #64748b;
+  --squash-light: #94a3b8;
+  --squash-dark: #475569;
+
+  --earth-brown: #334155;
+  --earth-light: #475569;
+  --sage-green: #6b7280;
+  --cream: #f1f5f9;
+  --charcoal: #1e293b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-corn: var(--corn-yellow);
+  --color-corn-light: var(--corn-light);
+  --color-corn-dark: var(--corn-dark);
+
+  --color-bean: var(--bean-burgundy);
+  --color-bean-light: var(--bean-light);
+  --color-bean-dark: var(--bean-dark);
+
+  --color-squash: var(--squash-orange);
+  --color-squash-light: var(--squash-light);
+  --color-squash-dark: var(--squash-dark);
+
+  --color-earth: var(--earth-brown);
+  --color-earth-light: var(--earth-light);
+  --color-sage: var(--sage-green);
+  --color-cream: var(--cream);
+  --color-charcoal: var(--charcoal);
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

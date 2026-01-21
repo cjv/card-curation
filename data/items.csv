@@ -1,0 +1,3 @@
+title,creator,year,creator_status,sku,description,categories,tags,available,image_url,link1_url,link2_url,link3_url,link4_url,link5_url,link6_url,link7_url,link8_url
+"Sample Item 1",Sample Creator,2023,Verified,SKU001,This is a sample item description. Replace with your own content.,Category 1|Category 2,sample|placeholder,TRUE,,,,,,,,,
+"Sample Item 2",Another Creator,2022,Community,SKU002,Another sample item description. Customize as needed.,Category 2,sample,TRUE,,,,,,,,,
